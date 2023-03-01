@@ -3,6 +3,7 @@ import { Data } from './Data';
 import Score from './Score';
 const Quiz =() => {
      const [currentquestion,setcurrentquestion]= useState(0);
+     //f
      const [score,setscore]= useState(0);
      const [clicked,setclicked]= useState(0);
      const [show,setshow]=useState(false);
